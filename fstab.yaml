@@ -1,2 +1,8 @@
-mountpoints:
-  /: https://drive.google.com/drive/folders/1izQ31C6Bwxehiju_5BYQjnl9_PdIVFVf
+ routes:
+  - path: https://drive.google.com/drive/folders/1I2MuKKzS7NBdif6XpPMtgob2jjxuGtKx
+    content:
+      footer: https://main--eds--anjal2.hlx.live/blogs/footer
+      
+  - path: https://drive.google.com/drive/folders/1wRiwWrNWCFv1T4qYJndj-pEmod_IjSY1
+    content:
+      footer:  https://main--eds--anjal2.hlx.live/blogs/footer
