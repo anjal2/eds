@@ -34,7 +34,7 @@ footer {
 
 .footer-block > div:last-child{
   position: absolute;
-  right: 15px;
+  right: 67px;
   top: 0;}
  
 .footer-block > div:nth-last-child(2) ul li a{
@@ -54,7 +54,7 @@ footer {
 
   .footer-block > div:nth-last-child(2) ul a[title="LinkedIn"]
   {
-    background: url('/icons/sprite.png') no-repeat -399px 0;
+    background: url('/icons/sprite.png') no-repeat -400px 0;
   }
   
 
