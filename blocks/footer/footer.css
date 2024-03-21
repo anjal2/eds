@@ -22,6 +22,28 @@ footer {
   font-size: 16px;
 }
 
+footer.block{
+  width: 1270px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  position: relative;
+}
+
+.footer-block > div:first-child{margin: 10px 0;}
+
+.footer-block > div:last-child{
+  position: absolute;
+  right: 15px;
+  top: 0;}
+ 
+.footer-block > div:nth-last-child(2) ul li a{
+  background: url('/icons/sprite.png') no-repeat -475px 0;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  }
+
 footer ul {
   list-style-type: none;
   padding: 0;
