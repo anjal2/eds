@@ -1,7 +1,2 @@
- routes:
-  - path: /blogs/
-      footer: https://docs.google.com/document/d/1pD_GxhP8ZneDEsPVDUWXu-Y9SMwL7OhEohVwhyBF_Q4
-      
-  - path: /cms/
-    content:
-      footer:  https://main--eds--anjal2.hlx.live/blogs/footer
+mountpoints:
+ /: https://drive.google.com/drive/folders/1izQ31C6Bwxehiju_5BYQjnl9_PdIVFVf
