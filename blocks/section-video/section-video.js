@@ -3,7 +3,11 @@ export default function decorate(block){
     console.log("anchortag "+ anchorTag);
     var video = document.createElement('video');
     video.src = anchorTag.href;
-    video.autoplay="autoplay";
+    // video.autoplay="autoplay";
     anchorTag.parentNode.replaceChild(video, anchorTag);
+    video.setAttribute('autoplay', 'autoplay');
+    video.setAttribute('muted', 'muted');
+    video.setAttribute('loop', 'loop');
+
     
 }
